@@ -21,7 +21,7 @@ export const data = [
     content:
       'World population is an application that shows information from all the countries of the world as well as news and events from all over the world. The purpose of the web application was to practice my knowledge. The application is developed in react.',
     link:
-      'https://res.cloudinary.com/emmanuel201290/image/upload/v1637676670/ADRL/Square_Video_Post_1080x1080_px_kvbbox.gif',
+      'https://world-population-app2.herokuapp.com/',
   },
   {
     title: 'SIDUNEA WORLD',
