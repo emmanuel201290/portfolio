@@ -1,0 +1,46 @@
+.about__container {
+  color: #ffffff;
+  margin-top: 3vh;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 48px;
+  text-align: justify;
+
+  h1,
+  h5 {
+    text-align: center;
+    color: #e9e9e9;
+    margin-top: 2rem;
+    margin-bottom: 1.3rem;
+  }
+}
+
+.about__presentation {
+  margin-top: 0.6vh;
+  font-size: 35px;
+  padding: 2rem;
+}
+
+.about__iconContact {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  p {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+  }
+}
+
+
+@media (max-width: 1824px) {
+   .about__presentation {
+         font-size: 26px;  
+    }
+
+    .about__container {
+      h5{
+        margin-bottom: 1.3rem;
+      }
+    }
+
+}
