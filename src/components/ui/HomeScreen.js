@@ -3,7 +3,7 @@ import React from 'react';
 export const HomeScreen = () => {
   return (
     <div className="portfolio__personal-information animate__animated animate__fadeIn">
-      <img src={'../imagen1.jpg'} alt={''} className="portfolio__img" />
+      <img src={'https://res.cloudinary.com/emmanuel201290/image/upload/v1639256366/Imagen1_yg6jkv.jpg'} alt={''} className="portfolio__img" />
 
       <p>
         I am a web & software programmer from Nicaragua, Managua.
