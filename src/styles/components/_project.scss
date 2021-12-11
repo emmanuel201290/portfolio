@@ -1,0 +1,37 @@
+.project__container {
+  margin-right: 2rem;
+  text-align: justify;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+
+  h3 {
+    color: whitesmoke;
+    font-size: 25px;
+    margin-bottom: 0.5rem;
+  }
+
+  h1 {
+    color: white;
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 3rem;
+    font-weight: bold;
+  }
+
+  p {
+    color: rgb(219, 217, 217);
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+    color: #f7a27f;
+  }
+}
+
+.project__information {
+  margin-bottom: 2rem;
+}

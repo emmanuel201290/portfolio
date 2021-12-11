@@ -1,0 +1,65 @@
+.contact__container {
+  color: #fffefe;
+  overflow: hidden;
+  margin-top: 3rem;
+  font-style: italic;
+  font-size: 30px;
+  h1 {
+    text-align: center;
+  }
+}
+
+.contact__text-skills {
+  font-size: 32px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.contact__container-my-skills {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+
+  h5 {
+    margin-top: 2rem;
+    font-size: 30px;
+    margin-bottom: 2rem;
+    color: #fffefe;
+  }
+
+  ul {
+    font-size: 22px;
+  }
+  li {
+    color: #e0d9d9;
+    margin: 0.3rem;
+  }
+}
+
+.contact__container-tools {
+  margin-left: 3rem;
+}
+
+.contact_Icon {
+  margin-right: 4px;
+  border-radius: 15px;
+  padding: 5px;
+
+  svg {
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+}
+
+.container__svgexpress {
+  background-color: #fffefe;
+  height: 3rem;
+  width: 8rem;
+  border-radius: 0rem;
+}
+
+@media (max-width: 1824px) {
+  .contact__text-skills{
+    font-size: 30px;
+  }
+}
