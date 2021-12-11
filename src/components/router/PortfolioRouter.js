@@ -19,7 +19,7 @@ export const PortfolioRouter = () => {
         <div className="portfolio__container-body">
           <AnimatePresence exitBeforeEnter>
             <Switch>
-              <Route exact path="/" component={HomeScreen} />
+              <Route exact path="/portfolio" component={HomeScreen} />
               <Route path="/about" component={AboutScreen} />
               <Route path="/contact" component={OffertScreen} />
               <Route exact path="/project" render={(props) => <ProjectScreen {...props} setFlg={setFlg} flg={flg} />} />
