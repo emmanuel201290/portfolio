@@ -5,7 +5,7 @@ export const MenuScreen = () => {
   return (
     <div className="menu__router">
       <ul className="menu__router-ul">
-        <NavLink activeClassName="active" className="nav-link" exact to="/">
+        <NavLink activeClassName="active" className="nav-link" exact to="/portfolio">
           Home
         </NavLink>
 
